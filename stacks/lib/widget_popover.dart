@@ -200,8 +200,7 @@ class WidgetPopoverState extends State<WidgetPopover> {
               ? widget.anchor.dy - 10
               : -1000000, // Ajusta -10 segons la mida del triangle
           child: CustomPaint(
-            size: Size(20,
-                10), // Aquesta mida determina l'amplada i l'altura del triangle
+            size: Size(20, 10), // Aquesta mida determina l'amplada i l'altura del triangle
             painter: TrianglePainter(triangleColor: Colors.white),
           ),
         ),
